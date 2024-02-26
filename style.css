@@ -1,0 +1,45 @@
+h1,
+h2,
+h3,
+p,
+li {
+  font-family: "Cambria";
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h2,
+h3 {
+  color: rgb(27, 128, 128);
+  font-weight: bold;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+.main-links {
+  border-top: rgb(27, 128, 128) 3px solid;
+  border-bottom: rgb(27, 128, 128) 3px solid;
+}
+
+a:link {
+  color: rgb(16, 175, 140);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(17, 155, 125);
+}
+
+a:hover {
+  color: rgb(182, 62, 172);
+  text-decoration: underline dashed;
+  font-weight: bold;
+}
